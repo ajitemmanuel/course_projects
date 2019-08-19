@@ -1,0 +1,10 @@
+y = wavread('forward.wav');
+trainmodels(y,'forward');
+y = wavread('back.wav');
+trainmodels(y,'back');
+y = wavread('left.wav');
+trainmodels(y,'left');
+y = wavread('right.wav');
+trainmodels(y,'right');
+y = wavread('noise.wav');
+trainmodels(y,'noise');
